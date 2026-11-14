@@ -1,0 +1,117 @@
+{
+ "format": "ikarus-widget-catalog/1",
+ "widgets": [
+  {
+   "id": "battery",
+   "name": "Battery ring",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "Your battery as a ring with the charge in the middle. It turns amber at 20% and shows when the charger is in.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/battery-1.0.ikwidget",
+   "sha256": "9ac7f76c68692069e1f5ee48592258864722bdf24f4fce295663eaad38396910",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-battery.svg",
+   "surfaces": [
+    "dock",
+    "island",
+    "dashboard"
+   ],
+   "permissions": [
+    "files"
+   ]
+  },
+  {
+   "id": "calendar-today",
+   "name": "Today",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "Today's events from IKARUS Calendar, with tomorrow's on a wide card. Tap an event to open it.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/calendar-today-1.0.ikwidget",
+   "sha256": "1e057bcf40619bb5226cb3b3f755b6929a4bcb835bc16558662bffc75003afad",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-calendar-today.svg",
+   "surfaces": [
+    "dock",
+    "island",
+    "dashboard"
+   ],
+   "permissions": [
+    "calendar"
+   ]
+  },
+  {
+   "id": "clock",
+   "name": "Clock",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "The time, with the date on Home. Copy it to start your own widget.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/clock-1.0.ikwidget",
+   "sha256": "f049f9fd0d37d671f319379ad46712ecfa538c95fca879e3448f7d1ca00dbeb4",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-clock.svg",
+   "surfaces": [
+    "dock",
+    "island",
+    "dashboard"
+   ],
+   "permissions": []
+  },
+  {
+   "id": "countdown",
+   "name": "Days until",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "The days left until a date you choose. It counts to New Year until you set your own.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/countdown-1.0.ikwidget",
+   "sha256": "f5320aa73e53958b0cc94a1b6535efcc26771e4f2ec82245c8ec6f6b934af40d",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-countdown.svg",
+   "surfaces": [
+    "dock",
+    "island",
+    "dashboard"
+   ],
+   "permissions": []
+  },
+  {
+   "id": "daily-quote",
+   "name": "Daily quote",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "One short quote a day on Home. It works offline, and you can swap in your own lines.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/daily-quote-1.0.ikwidget",
+   "sha256": "cc08001354fecab5b605ae4914c4514e64d7a84d1d7def0176ccff2d33048641",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-daily-quote.svg",
+   "surfaces": [
+    "dashboard"
+   ],
+   "permissions": []
+  },
+  {
+   "id": "quick-note",
+   "name": "Quick note",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "A small note on Home. Type in it and it is still there after a restart.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/quick-note-1.0.ikwidget",
+   "sha256": "6844ffd1069973d626f0c8682188518c55aa4891dc06919dfce082ef65701b55",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-quick-note.svg",
+   "surfaces": [
+    "dashboard"
+   ],
+   "permissions": []
+  },
+  {
+   "id": "world-clock",
+   "name": "World clock",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "The time in another city. Tap its dock key for the next city.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/world-clock-1.0.ikwidget",
+   "sha256": "b5785e699545d8e3353dd288021a8b5bbf2d37da113d7ad1d4149df7809ae828",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-world-clock.svg",
+   "surfaces": [
+    "dock",
+    "island",
+    "dashboard"
+   ],
+   "permissions": []
+  }
+ ]
+}
