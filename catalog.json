@@ -1,0 +1,188 @@
+{
+ "format": "ikarus-store-catalog/1",
+ "about": "The IKARUS Store, made by AyeJayS47 [IKARUS Software]. Widgets, plugins and themes for IKARUS.",
+ "items": [
+  {
+   "kind": "plugin",
+   "id": "hello-card",
+   "name": "Hello card",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "A small Home card that says hello and shows what's playing. Copy it to start your own plugin.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/plugins/hello-card-1.0.zip",
+   "sha256": "2160ed430d01b72fa4fbf00059c341fe9c88c3730dfbdb64350f335ccb769bf9",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/plugin-hello-card.svg",
+   "permissions": [
+    "media"
+   ],
+   "sig": "OGMsg4kVPnBmQuUw7d1hMMYGfTCfQwp6rQ/UHl0UDKYi4NGFR0+GHKSICncIrl3VXfIcVohQgs8sq6xhuj32BA=="
+  },
+  {
+   "kind": "plugin",
+   "id": "now-playing",
+   "name": "Now playing",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "A small Home card with the song, the artist and the album that is playing. It can also show each new song on the island.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/plugins/now-playing-1.0.zip",
+   "sha256": "f40f861538915b061b3ecfa13fec0268cc917e3ef28df570e42fa7482bc363d7",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/plugin-now-playing.svg",
+   "permissions": [
+    "media"
+   ],
+   "sig": "heaLdLxkLYnGhG+/zDrNT0Hp/puX6Hce96tcCKwh3JaAi37K0z9jrNeBi/sYcb2mpjraIOqRwwAoJa5t3FRSDw=="
+  },
+  {
+   "kind": "plugin",
+   "id": "pomodoro",
+   "name": "Pomodoro",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "Focus for 25 minutes, then rest for 5. It adds a Home card, a countdown on the island and “pomodoro” in Spotlight.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/plugins/pomodoro-1.0.zip",
+   "sha256": "6716af9f06993f36ca4471638e1c80830ead45b322d10d648b6452503a408618",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/plugin-pomodoro.svg",
+   "permissions": [],
+   "sig": "Xg0Txff4B9LW5SEZXt/M/9twgPbtA6Rk37UtU8nMf44vssKKeCWkWq86VqJvlYN4TWIDaB4udRdrWDoLW7w0CA=="
+  },
+  {
+   "kind": "theme",
+   "id": "midnight-blue",
+   "name": "Midnight Blue Glass",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "Deep blue glass for late evenings.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/themes/midnight-blue-1.0.iktheme",
+   "sha256": "7da37acca675da045c024b1585b9b247119fa200b14396e2451326a94da3a569",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/theme-midnight-blue.svg",
+   "tint": "#06122a",
+   "sig": "wIIAa2UY+hb71iFiqVUkTcngynOTFgU9Dvo4ixK2PL2U8jYexpW4KP1Lx8LCcjcXBNLX28EQpBaDOHkTM8xODQ=="
+  },
+  {
+   "kind": "widget",
+   "id": "battery",
+   "name": "Battery ring",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "Your battery as a ring with the charge in the middle. It turns amber at 20% and shows when the charger is in.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/battery-1.0.ikwidget",
+   "sha256": "9ac7f76c68692069e1f5ee48592258864722bdf24f4fce295663eaad38396910",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-battery.svg",
+   "surfaces": [
+    "dock",
+    "island",
+    "dashboard"
+   ],
+   "permissions": [
+    "files"
+   ],
+   "sig": "IoKDBtHOQZ6NlZvP0m1QDmD3mFUTLdw1ypeFVI4JsgF1Ef4eh66iPB/yoolbXz8HqK6sEmbUaEDizkMMpPSwBA=="
+  },
+  {
+   "kind": "widget",
+   "id": "calendar-today",
+   "name": "Today",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "Today's events from IKARUS Calendar, with tomorrow's on a wide card. Tap an event to open it.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/calendar-today-1.0.ikwidget",
+   "sha256": "1e057bcf40619bb5226cb3b3f755b6929a4bcb835bc16558662bffc75003afad",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-calendar-today.svg",
+   "surfaces": [
+    "dock",
+    "island",
+    "dashboard"
+   ],
+   "permissions": [
+    "calendar"
+   ],
+   "sig": "RTdQpa1cyxEqX1OMuxT7cgXhuHA/HWoBBWnYhM9v0gWCPlb/NSZvi14cYB+tNl/iBkNZlbsRPkwdbwxN1/4bBQ=="
+  },
+  {
+   "kind": "widget",
+   "id": "clock",
+   "name": "Clock",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "The time, with the date on Home. Copy it to start your own widget.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/clock-1.0.ikwidget",
+   "sha256": "f049f9fd0d37d671f319379ad46712ecfa538c95fca879e3448f7d1ca00dbeb4",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-clock.svg",
+   "surfaces": [
+    "dock",
+    "island",
+    "dashboard"
+   ],
+   "permissions": [],
+   "sig": "SbJQdUvYFCCVjl60gvcQInaJrACnyoyGgjurl+MdsehbtJOS+OCdvFvBufvnV7LtKq7Xcxwsw1YGFAsVkGk3CQ=="
+  },
+  {
+   "kind": "widget",
+   "id": "countdown",
+   "name": "Days until",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "The days left until a date you choose. It counts to New Year until you set your own.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/countdown-1.0.ikwidget",
+   "sha256": "f5320aa73e53958b0cc94a1b6535efcc26771e4f2ec82245c8ec6f6b934af40d",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-countdown.svg",
+   "surfaces": [
+    "dock",
+    "island",
+    "dashboard"
+   ],
+   "permissions": [],
+   "sig": "qKth36/ymLmu2T1L4Wjux6DJ9fTnp1LLvA5cGFEfG23TRqo5pdXt6RiV52Xv6f6Tmvhcek2hqp0ghvuXoS0yDw=="
+  },
+  {
+   "kind": "widget",
+   "id": "daily-quote",
+   "name": "Daily quote",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "One short quote a day on Home. It works offline, and you can swap in your own lines.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/daily-quote-1.0.ikwidget",
+   "sha256": "cc08001354fecab5b605ae4914c4514e64d7a84d1d7def0176ccff2d33048641",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-daily-quote.svg",
+   "surfaces": [
+    "dashboard"
+   ],
+   "permissions": [],
+   "sig": "B/e0A13hnZqQMntpi2JjW2eZ/HMy3G9rSZ8kzPyWjQV+vUIk4TV4qZPSlHjhAiPv91axdx2FeWJhqCFWHpafBw=="
+  },
+  {
+   "kind": "widget",
+   "id": "quick-note",
+   "name": "Quick note",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "A small note on Home. Type in it and it is still there after a restart.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/quick-note-1.0.ikwidget",
+   "sha256": "6844ffd1069973d626f0c8682188518c55aa4891dc06919dfce082ef65701b55",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-quick-note.svg",
+   "surfaces": [
+    "dashboard"
+   ],
+   "permissions": [],
+   "sig": "e0gLjXavi8V216UaV+czTLl5u+JRriNk2Ihg1PxyDhQ1u/UFWWlVPoyH+s7BkGHwWtTwLbuIcunlLTswXxN0Dw=="
+  },
+  {
+   "kind": "widget",
+   "id": "world-clock",
+   "name": "World clock",
+   "version": "1.0",
+   "author": "AyeJayS47",
+   "description": "The time in another city. Tap its dock key for the next city.",
+   "url": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/packages/widgets/world-clock-1.0.ikwidget",
+   "sha256": "b5785e699545d8e3353dd288021a8b5bbf2d37da113d7ad1d4149df7809ae828",
+   "preview": "https://raw.githubusercontent.com/AyeJayS47DEV/ikarus-store/main/previews/widget-world-clock.svg",
+   "surfaces": [
+    "dock",
+    "island",
+    "dashboard"
+   ],
+   "permissions": [],
+   "sig": "IwWuB7xcF5APYsyhQQKqBDa0TdcL4xkxgE9GmB1t7OZvmyHYfHTAMZ92Em9+FcOqOdzUaqjxVnSJvw0xcxHxDA=="
+  }
+ ]
+}
